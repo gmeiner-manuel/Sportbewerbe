@@ -35,4 +35,23 @@ public class Team {
     public void setTeamMitglieder(ArrayList<Sportler> teamMitglieder) {
         this.teamMitglieder = teamMitglieder;
     }
+
+    public void addSportler(Sportler s) {
+
+        for (Sportler sportler:teamMitglieder) {
+            teamMitglieder.add(s);
+        }
+    }
+
+    public void remSportler(Sportler s) {
+
+        for (Sportler sportler:teamMitglieder) {
+            teamMitglieder.remove(s);
+        }
+    }
+
+    public double berechneMarktwert() {
+
+        return 0;
+    }
 }

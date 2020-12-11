@@ -53,4 +53,8 @@ public class Sportler {
                 ", nat='" + nat + '\'' +
                 '}';
     }
+
+    public void berechneMarktwert() {
+
+    }
 }
