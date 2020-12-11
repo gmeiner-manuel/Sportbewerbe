@@ -54,4 +54,13 @@ public class Team {
 
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Team{" +
+                "name='" + name + '\'' +
+                ", natTeam=" + natTeam + "\n" +
+                "teamMitglieder=" + teamMitglieder + "\n" +
+                '}';
+    }
 }

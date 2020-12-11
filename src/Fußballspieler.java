@@ -21,4 +21,8 @@ public class Fußballspieler extends Sportler {
                 "transferBetrag=" + transferBetrag +
                 '}';
     }
+
+    public double berechneSMarktwert() {
+        return transferBetrag;
+    }
 }

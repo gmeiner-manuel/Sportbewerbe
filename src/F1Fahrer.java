@@ -21,4 +21,8 @@ public class F1Fahrer extends Sportler {
                 "jahresGehalt=" + jahresGehalt +
                 '}';
     }
+
+    public double berechneSMarktwert() {
+        return jahresGehalt;
+    }
 }

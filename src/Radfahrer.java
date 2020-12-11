@@ -32,4 +32,8 @@ public class Radfahrer extends Sportler {
                 ", anzSiege=" + anzSiege +
                 '}';
     }
+
+    public double berechneSMarktwert() {
+        return anzSiege * watt;
+    }
 }
